@@ -16,7 +16,7 @@ public class Partition {
 	public List<List<Integer>> partition(List<Integer> liste, int taille) {
 		List<List<Integer>> partitions = new ArrayList<>();
 		
-		//Si la taille est non significatif ou la liste est nulle on retourne une partition vide
+		//Si la taille est non significative ou la liste est nulle on retourne une partition vide
 		if(taille <= 0 || liste == null)
 			return partitions;
 		
